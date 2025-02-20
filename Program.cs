@@ -1,5 +1,5 @@
 ﻿using System;
-
+/*
 Console.WriteLine("< Bu \"DOIRA PARAMETRLARI\" dasturi >");
 
 Console.Write("Doira radiusini kiriting:\n>>> ");
@@ -12,3 +12,14 @@ double uzunlik = 2 * PI * radius;
 
 Console.WriteLine($"Doira yuzi: {yuza}.");
 Console.WriteLine($"Aylanasi uzunligi: {uzunlik}.");
+*/
+
+Console.WriteLine("< Bu \"VALYUTA KONVERTORI\" dasturi");
+
+Console.Write("Xorijiy valyuta kursini kiriting (hozirgi MB bo'yicha):\n>>> ");
+double kurs = Convert.ToDouble(Console.ReadLine());
+
+Console.Write("Valyuta qiymatini kiriting:\n>>> ");
+double qiymat = Convert.ToDouble(Console.ReadLine());
+
+Console.WriteLine($"So'mdagi miqdori: {kurs * qiymat}.");
